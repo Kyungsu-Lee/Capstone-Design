@@ -1,2 +1,3 @@
 # Capstone-Design
-Capstone Design under prof. Kun Lee
+
+1. what we have to do?
