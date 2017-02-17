@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/StepByStepFolder/Test.cs">
+    <Files>
+      <File FileName="Assets/StepByStepFolder/Test.cs" Line="225" Column="65" />
+      <File FileName="Assets/Others/StepMain/03. Scripts/ChangeScene.cs" Line="1" Column="1" />
+      <File FileName="Assets/SocketIO/Scripts/SocketFunctions.cs" Line="1" Column="1" />
+      <File FileName="Assets/Young1DaeFolder/Scripts/Done_GameController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Others/StepMain/03. Scripts/Resource.cs" Line="1" Column="1" />
+      <File FileName="Assets/StepByStepFolder/src/Object/Object/Steps.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

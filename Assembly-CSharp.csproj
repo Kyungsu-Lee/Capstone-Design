@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{43FDECA6-E946-A181-84F9-C26647DC3D0A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Cam\Scripts\ColorDetection.cs" />
+     <Compile Include="Assets\Cam\Scripts\Tests.cs" />
+     <Compile Include="Assets\Others\01Main\YIMenu.cs" />
+     <Compile Include="Assets\Others\Display.cs" />
+     <Compile Include="Assets\Others\LogIns.cs" />
+     <Compile Include="Assets\Others\Map\Script\ButtonScript.cs" />
+     <Compile Include="Assets\Others\StepBackScript.cs" />
+     <Compile Include="Assets\Others\StepDescription\SailCharacterPack\Scripts\AnimatedUVss.cs" />
+     <Compile Include="Assets\Others\StepDescription\SailCharacterPack\Scripts\DemoCameras.cs" />
+     <Compile Include="Assets\Others\StepDescription\SailCharacterPack\Scripts\FacialExpressionss.cs" />
+     <Compile Include="Assets\Others\StepDescription\SailCharacterPack\Scripts\SmallFishEmitters.cs" />
+     <Compile Include="Assets\Others\StepDescription\Script\RealCam.cs" />
+     <Compile Include="Assets\Others\StepGPS.cs" />
+     <Compile Include="Assets\Others\StepMain\03. Scripts\ChangeScene.cs" />
+     <Compile Include="Assets\Others\StepMain\03. Scripts\CreateScrollList.cs" />
+     <Compile Include="Assets\Others\StepMain\03. Scripts\Resource.cs" />
+     <Compile Include="Assets\Others\StepMain\03. Scripts\SampleBtn.cs" />
+     <Compile Include="Assets\Others\StepMain\StepMenu.cs" />
+     <Compile Include="Assets\Others\YIBackScript.cs" />
+     <Compile Include="Assets\Others\YIGps.cs" />
+     <Compile Include="Assets\SocketIO\JSONObject\JSONObject.cs" />
+     <Compile Include="Assets\SocketIO\JSONObject\JSONTemplates.cs" />
+     <Compile Include="Assets\SocketIO\JSONObject\VectorTemplates.cs" />
+     <Compile Include="Assets\SocketIO\Scripts\SocketFunctions.cs" />
+     <Compile Include="Assets\SocketIO\Scripts\SocketIO\Ack.cs" />
+     <Compile Include="Assets\SocketIO\Scripts\SocketIO\Decoder.cs" />
+     <Compile Include="Assets\SocketIO\Scripts\SocketIO\Encoder.cs" />
+     <Compile Include="Assets\SocketIO\Scripts\SocketIO\EnginePacketType.cs" />
+     <Compile Include="Assets\SocketIO\Scripts\SocketIO\Packet.cs" />
+     <Compile Include="Assets\SocketIO\Scripts\SocketIO\Parser.cs" />
+     <Compile Include="Assets\SocketIO\Scripts\SocketIO\SocketIOComponent.cs" />
+     <Compile Include="Assets\SocketIO\Scripts\SocketIO\SocketIOEvent.cs" />
+     <Compile Include="Assets\SocketIO\Scripts\SocketIO\SocketIOException.cs" />
+     <Compile Include="Assets\SocketIO\Scripts\SocketIO\SocketPacketType.cs" />
+     <Compile Include="Assets\SocketIO\Scripts\Test\TestSocketIO.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\AssemblyInfo.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\ByteOrder.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\CloseEventArgs.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\CloseStatusCode.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\CompressionMethod.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\ErrorEventArgs.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Ext.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Fin.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\HandshakeBase.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\HandshakeRequest.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\HandshakeResponse.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\LogData.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\LogLevel.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Logger.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Mask.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\MessageEventArgs.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\AuthenticationBase.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\AuthenticationChallenge.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\AuthenticationResponse.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\AuthenticationSchemes.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\Chunk.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\ChunkStream.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\ChunkedRequestStream.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\Cookie.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\CookieCollection.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\CookieException.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\EndPointListener.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\EndPointManager.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\HttpBasicIdentity.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\HttpConnection.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\HttpDigestIdentity.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\HttpHeaderInfo.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\HttpHeaderType.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\HttpListener.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\HttpListenerContext.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\HttpListenerException.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\HttpListenerPrefixCollection.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\HttpListenerRequest.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\HttpListenerResponse.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\HttpStatusCode.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\HttpStreamAsyncResult.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\HttpUtility.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\HttpVersion.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\InputChunkState.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\InputState.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\LineState.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\ListenerAsyncResult.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\ListenerPrefix.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\NetworkCredential.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\QueryStringCollection.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\ReadBufferState.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\RequestStream.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\ResponseStream.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\Security\SslStream.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\WebHeaderCollection.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\WebSockets\HttpListenerWebSocketContext.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\WebSockets\TcpListenerWebSocketContext.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Net\WebSockets\WebSocketContext.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Opcode.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\PayloadData.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\Rsv.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\WebSocket.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\WebSocketException.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\WebSocketFrame.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\WebSocketState.cs" />
+     <Compile Include="Assets\SocketIO\WebsocketSharp\WebSocketStream.cs" />
+     <Compile Include="Assets\StepByStepFolder\A.cs" />
+     <Compile Include="Assets\StepByStepFolder\Character\SailCharacterPack\Scripts\AnimatedUVs.cs" />
+     <Compile Include="Assets\StepByStepFolder\Character\SailCharacterPack\Scripts\DemoCamera.cs" />
+     <Compile Include="Assets\StepByStepFolder\Character\SailCharacterPack\Scripts\FacialExpressions.cs" />
+     <Compile Include="Assets\StepByStepFolder\Character\SailCharacterPack\Scripts\SmallFishEmitter.cs" />
+     <Compile Include="Assets\StepByStepFolder\Hover.cs" />
+     <Compile Include="Assets\StepByStepFolder\Scripts\Controller2D.cs" />
+     <Compile Include="Assets\StepByStepFolder\Scripts\Player.cs" />
+     <Compile Include="Assets\StepByStepFolder\Scripts\Step_GameManager.cs" />
+     <Compile Include="Assets\StepByStepFolder\Test.cs" />
+     <Compile Include="Assets\StepByStepFolder\src\Event\TouchEvent.cs" />
+     <Compile Include="Assets\StepByStepFolder\src\Folder\Default.cs" />
+     <Compile Include="Assets\StepByStepFolder\src\Game\Stage.cs" />
+     <Compile Include="Assets\StepByStepFolder\src\Object\Action\CharacterAction.cs" />
+     <Compile Include="Assets\StepByStepFolder\src\Object\Action\StepAction.cs" />
+     <Compile Include="Assets\StepByStepFolder\src\Object\Interface\CharacterInterface.cs" />
+     <Compile Include="Assets\StepByStepFolder\src\Object\Interface\StepInterface.cs" />
+     <Compile Include="Assets\StepByStepFolder\src\Object\Line.cs" />
+     <Compile Include="Assets\StepByStepFolder\src\Object\Object\Character.cs" />
+     <Compile Include="Assets\StepByStepFolder\src\Object\Object\LSteps.cs" />
+     <Compile Include="Assets\StepByStepFolder\src\Object\Object\MapObject.cs" />
+     <Compile Include="Assets\StepByStepFolder\src\Object\Object\RSteps.cs" />
+     <Compile Include="Assets\StepByStepFolder\src\Object\Object\Step.cs" />
+     <Compile Include="Assets\StepByStepFolder\src\Object\Object\Steps.cs" />
+     <Compile Include="Assets\StepByStepFolder\src\Object\StepObjectNameSpace.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\AsteroidSound.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\CamA.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\CameraSize.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\CatapultSound.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\Combo.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\DataMgr.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\DestroyByTime.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\Done_DestroyByContact.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\Done_GameController.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\Done_Mover.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\Done_RandomRotator.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\GuideDestroy.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\MiniMapCam.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\ProjectileDragging.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\ProjectileFollow.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\Reseter.cs" />
+     <Compile Include="Assets\Young1DaeFolder\Scripts\SlingShot.cs" />
+     <Compile Include="Assets\Young1DaeFolder\plugins\SimpleJSON.cs" />
+     <None Include="Assets\SocketIO\JSONObject\readme.txt" />
+     <None Include="Assets\StepByStepFolder\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Others\link.xml" />
+     <None Include="Assets\StepByStepFolder\Resources\stage.txt" />
+     <None Include="Assets\Others\StepDescription\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Young1DaeFolder\Particles\Particlecollection_Free samples\Particlecollection Readme.txt" />
+     <None Include="Assets\Others\StepDescription\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\Others\StepDescription\Particles\Particlecollection_Free samples\Particlecollection Readme.txt" />
+     <None Include="Assets\StepByStepFolder\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\SocketIO\Readme.txt" />
+     <None Include="Assets\StepByStepFolder\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\StepByStepFolder\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\StepByStepFolder\Character\SailCharacterPack\Readme.txt" />
+     <None Include="Assets\Others\license_3rdpartynotice.txt" />
+     <None Include="Assets\Others\readme_SDK.txt" />
+     <None Include="Assets\Others\StepDescription\SailCharacterPack\Readme.txt" />
+     <None Include="Assets\StepByStepFolder\Isometric Block\readme.txt" />
+     <None Include="Assets\Others\StepDescription\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Others\StepDescription\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\StepByStepFolder\Particles\Particlecollection_Free samples\Particlecollection Readme.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
